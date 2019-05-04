@@ -32,6 +32,6 @@ even 14,14 if you like.
 
 4. if somehow you get singular matrix error, add bias rand.random(0,1) in line 54 & 57 just to make element in matrix nonzeor.
 5. logistic regression part you might encouter the situation that you cant meet the convergence of gradient descent or ascent, you just
-   need to increase the number of iteration from 2000 to 5000 or more, feel exhusted？increase the learnig rate some fration very little? 
-   still too slow, increase the precision from 0.0001 to 0.0005.  logistic is tend to have slow trainning time, but the accuracy very 	    decent. The key is to understand the gradient decent or ascent is in data science, and weight, bias as well.
+   need to increase the number of iteration from 2000 to 5000 or more, feel exhusted？increase the learnig rate some fration very little.
+   still too slow? increase the precision from 0.0001 to 0.0005.  logistic is tend to have slow trainning time, but the accuracy very 	    decent. The key is to understand the gradient decent or ascent is in data science, and weight, bias as well.
  
