@@ -1,9 +1,12 @@
 * follow the step, you would be able to execute and see the result.
 * prerequiment:  python IDLE 64 BITS. dependency python: glob, Pillow, xlrd, numpy, pandas make sure you have all of them
-* contact info: fangshion@gmail.com Sheng Wu
+* need complete dataset? contact info: fangshion@gmail.com Sheng Wu
+* linear regression and logistic regreesion used, there are many algos you can use RBM, NN, DNN, I have my RBM and DNN coming soon.
+*stay tuned.
+
 1. unzip it to your local machine
 
-2. open DM_FP.py and rbm.py change to your dictory 
+2. open DS_FP_LinReg.py and DS_FP_LogReg.py change to your dictory 
 such as: This is training dirctory
  tData = pd.read_excel(r"C:\Users\sheng\Desktop\DataMining\finalProj\train.xlsx", sheet_name='Sheet1')
     print("Column headings:", tData.columns)
@@ -28,3 +31,4 @@ im=Image.open(filename).resize((28,28)).convert('RGB')#resize to smallest due me
 even 14,14 if you like. 
 
 4. if somehow you get singular matrix error, add bias rand.random(0,1) in line 54 & 57 just to make element in matrix nonzeor.
+
