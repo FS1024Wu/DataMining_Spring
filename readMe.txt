@@ -1,0 +1,30 @@
+* follow the step, you would be able to execute and see the result.
+* prerequiment:  python IDLE 64 BITS. dependency python: glob, Pillow, xlrd, numpy, pandas make sure you have all of them
+* contact info: fangshion@gmail.com Sheng Wu
+1. unzip it to your local machine
+
+2. open DM_FP.py and rbm.py change to your dictory 
+such as: This is training dirctory
+ tData = pd.read_excel(r"C:\Users\sheng\Desktop\DataMining\finalProj\train.xlsx", sheet_name='Sheet1')
+    print("Column headings:", tData.columns)
+    for filename in glob.glob(r"C:\Users\sheng\Desktop\DataMining\finalProj\*.JPG"):
+
+edit it to your path: 
+ tData = pd.read_excel(r"YOURPATH\train.xlsx", sheet_name='Sheet1')
+    print("Column headings:", tData.columns)
+    for filename in glob.glob(r"YOURPATH\*.JPG"):
+
+
+such as: This is testing dirctory
+ test_Data = pd.read_excel(r"YOURPATH\train.xlsx", sheet_name='test')
+    for filename in glob.glob(r"YOURPATH\test\t1.*"):
+Step 2 applys to both Lin_Reg and Log_Reg python file
+
+3. then run your code. minimum machine requires 2 Ghz processor with 12 G RAM.
+	however, you can at line 26 and 70 edit it as: 
+im=Image.open(filename).resize((56,56)).convert('RGBA')#resize to smallest due memroy and matrix issue bestfit 64,64
+to 
+im=Image.open(filename).resize((28,28)).convert('RGB')#resize to smallest due memroy and matrix issue bestfit 64,64
+even 14,14 if you like. 
+
+4. if somehow you get singular matrix error, add bias rand.random(0,1) in line 54 & 57 just to make element in matrix nonzeor.
