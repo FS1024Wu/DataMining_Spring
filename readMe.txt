@@ -40,4 +40,5 @@ even 14,14 if you like.
 ![ct2](https://user-images.githubusercontent.com/46949426/59968873-60a53a80-950f-11e9-8875-c961d5cee281.png)
  ![ct2 report](https://github.com/FS1024Wu/DataScience_Spring/blob/master/ct2.png)
  ![ct3 report](https://github.com/FS1024Wu/DataScience_Spring/blob/master/ct3.png)
-
+ 
+![ctp 1](/https://github.com/FS1024Wu/DataScience_Spring/blob/master/ct1.png)
