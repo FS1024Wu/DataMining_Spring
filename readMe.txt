@@ -36,7 +36,7 @@ even 14,14 if you like.
    still too slow? increase the precision from 0.0001 to 0.0005.  logistic is tend to have slow trainning time, but the accuracy very
    decent. The key is to understand the gradient decent or ascent in data science, and weight, bias as well.
  
-![ct1](https://user-images.githubusercontent.com/46949426/59968850-c2b17000-950e-11e9-8fdc-d3e58d2fbf1d.png)
+[ct1](https://user-images.githubusercontent.com/46949426/59968850-c2b17000-950e-11e9-8fdc-d3e58d2fbf1d.png)
 
  ![ct2 report](https://github.com/FS1024Wu/DataScience_Spring/blob/master/ct2.png)
  ![ct3 report](https://github.com/FS1024Wu/DataScience_Spring/blob/master/ct3.png)
