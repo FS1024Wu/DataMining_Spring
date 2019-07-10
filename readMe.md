@@ -1,4 +1,4 @@
-[DataScience_Report.pdf](https://github.com/FS1024Wu/DataScience_Spring/files/3379744/DataScience_Report.pdf)
+[Report.pdf](https://github.com/FS1024Wu/DataScience_Spring/files/3379744/DataScience_Report.pdf)
 * follow the step, you would be able to execute and see the result.
 * prerequiment:  python IDLE 64 BITS. dependency python: glob, Pillow, xlrd, numpy, pandas make sure you have all of them
 * need complete dataset? contact info: fangshion@gmail.com Sheng Wu
